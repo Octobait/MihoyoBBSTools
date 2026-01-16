@@ -21,7 +21,7 @@ mihoyobbs:
   #控制bbs功能是否启用
   enable: false
   #社区签到
-  checkin: true
+  checkin: false
   #签到的社区列表 详情可以看config文件夹下面的readme
   checkin_list:
     - 2
@@ -96,16 +96,16 @@ games:
 cloud_games:
   # 控制整个云游戏的签到
   cn:
-    enable: false
+    enable: true
     #云原神
     genshin:
       #开启签到
-      enable: false
+      enable: true
       #这里填入抓包获得的token，支持多个
       token: ""
     #云绝区零
     zzz:
-      enable: false
+      enable: true
       token: ""
   os:
     lang: "zh-cn"
